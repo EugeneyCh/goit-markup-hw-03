@@ -284,7 +284,12 @@ header .container {
   width: 264px;
 }
 /*==================Portfolio====================*/
-
+.container-portfolio {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -335,7 +340,6 @@ header .container {
   justify-content: center;
   flex-wrap: wrap;
   padding: 0;
-  margin-bottom: 120px;
 }
 .card-link {
   display: block;
@@ -350,7 +354,12 @@ header .container {
   margin-bottom: 48px;
   margin-left: 24px;
 }
-
+.project-card li:nth-child(3n + 1) {
+  margin-left: 0;
+}
+.project-card li:nth-child(n + 7) {
+  margin-bottom: 0;
+}
 .card-info {
   padding-left: 16px;
   padding-top: 32px;
@@ -360,4 +369,7 @@ header .container {
   border-left: 0.5px solid #f4f4fd;
   border-right: 0.5px solid #f4f4fd;
   border-bottom: 0.5px solid #f4f4fd;
+}
+.card-info> .paragraph{
+  margin-top: 8px;
 }
