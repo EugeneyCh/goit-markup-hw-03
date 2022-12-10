@@ -13,7 +13,7 @@ body {
   color: var(--prime-text-color);
 }
 .section {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 
 .container {
@@ -93,6 +93,7 @@ header .container {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
+  border: none;
   border-radius: 4px;
   cursor: pointer;
   width: 170px;
@@ -195,6 +196,9 @@ header .container {
 }
 
 /* =================WAWD================== */
+.products{
+  padding-bottom: 120px;
+}
 .product {
   display: flex;
   padding-top: 0;
@@ -211,6 +215,8 @@ header .container {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 0;
+  padding-bottom: 120px;
 }
 .team-title {
   display: block;
@@ -220,7 +226,6 @@ header .container {
 .teammates {
   display: flex;
   margin: 0;
-  margin-bottom: 120px;
 }
 .teammates > li {
   background-color: #fff;
@@ -235,7 +240,7 @@ header .container {
   padding-bottom: 32px;
 }
 .teammate-info p {
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 .paragraph {
@@ -244,6 +249,7 @@ header .container {
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
+  margin-top: 8px;
 }
 
 .span {
@@ -276,12 +282,16 @@ header .container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+p{
+  margin: 0;
+}
 .footer div {
   display: flex;
   flex-direction: column;
 }
 .footer-text {
   width: 264px;
+  margin-top: 16px;
 }
 /*==================Portfolio====================*/
 .container-portfolio {
@@ -305,6 +315,7 @@ header .container {
   line-height: 1.5;
   cursor: pointer;
   height: 48;
+  border: none;
   border-radius: 4px;
   border-color: var(--alter-text-color);
   padding: 12px 24px;
